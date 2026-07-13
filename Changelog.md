@@ -1,4 +1,4 @@
-# (unreleased)
+# 3.1.1
 
 This version does not contain any functional changes. It only updates third-party dependencies.
 

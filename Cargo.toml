@@ -4,7 +4,7 @@ description = "Receives syslog messages from nginx and stores them in a PostgreS
 authors = ["Sky Schubert <sky@overengineer.dev>"]
 repository = "https://github.com/skyschub/nginx-syslog-postgresql-bridge"
 license = "MIT"
-version = "3.1.0"
+version = "3.1.1"
 edition = "2024"
 
 [profile.release]
