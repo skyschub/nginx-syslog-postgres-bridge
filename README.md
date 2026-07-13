@@ -32,7 +32,7 @@ nginx needs to be configured with a special log format. [Check the dedicated doc
 
 ## Deployment and configuration
 
-A container image is pushed to [the GitHub Container registry at `ghcr.io/denschub/nginx-syslog-postgres-bridge:latest`][ghcr], and [to Docker Hub as `denschub/nginx-syslog-postgres-bridge:latest`][dockerhub]. The container exposes port 8514.
+A container image is pushed to [the GitHub Container registry at `ghcr.io/skyschub/nginx-syslog-postgres-bridge:latest`][ghcr], and [to Docker Hub as `skyschub/nginx-syslog-postgres-bridge:latest`][dockerhub]. The container exposes port 8514.
 
 Configuration of the server is done with either environment variables or via CLI arguments. Make sure to set `DATABASE_URL`/`--database-url` to a valid PostgreSQL connection URL like `postgres://postgres@127.0.0.1/nginx_logs`. The database needs to exist before starting the server, but the server startup procedure will take care of all database migrations.
 
@@ -44,9 +44,9 @@ Additional settings are available, for example a custom limit for the maximum qu
 
 [MIT](/LICENSE).
 
-[dockerhub]: https://hub.docker.com/repository/docker/denschub/nginx-syslog-postgres-bridge/general
-[ghcr]: https://github.com/denschub/nginx-syslog-postgres-bridge/pkgs/container/nginx-syslog-postgres-bridge
-[github-releases]: https://github.com/denschub/nginx-syslog-postgres-bridge/releases
+[dockerhub]: https://hub.docker.com/repository/docker/skyschub/nginx-syslog-postgres-bridge/general
+[ghcr]: https://github.com/skyschub/nginx-syslog-postgres-bridge/pkgs/container/nginx-syslog-postgres-bridge
+[github-releases]: https://github.com/skyschub/nginx-syslog-postgres-bridge/releases
 [nginx-syslog]: https://nginx.org/en/docs/syslog.html
 [rfc5426]: https://www.rfc-editor.org/rfc/rfc5426
 [selfhosted-timescale]: https://docs.timescale.com/self-hosted/latest

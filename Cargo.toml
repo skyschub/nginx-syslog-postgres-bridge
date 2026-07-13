@@ -1,8 +1,8 @@
 [package]
 name = "nginx-syslog-postgres-bridge"
 description = "Receives syslog messages from nginx and stores them in a PostgreSQL database"
-authors = ["Dennis Schubert <mail@dennis-schubert.de>"]
-repository = "https://github.com/denschub/nginx-syslog-postgresql-bridge"
+authors = ["Sky Schubert <sky@overengineer.dev>"]
+repository = "https://github.com/skyschub/nginx-syslog-postgresql-bridge"
 license = "MIT"
 version = "3.1.0"
 edition = "2024"
